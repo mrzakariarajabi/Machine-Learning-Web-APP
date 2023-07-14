@@ -79,7 +79,7 @@ def main():
        st.sidebar.subheader("Model Hyperparmeters")
        C = st.sidebar.number_input("C (Regulation number)", 0.01, 10.0, step=0.01, key='C')
        kernel = st.sidebar.radio("Kernel", ("rbf", "linear"), key='kernel')
-       gamma = st.sidebar.radio("Gamma (Kernel Coefficient)", ("Sclae", "auto"), key='gamma')
+       gamma = st.sidebar.radio("Gamma (Kernel Coefficient)", ("scale", "auto"), key='gamma')
 
        metrics = st.sidebar.multiselect("what metrics to plot?",('Cofusion Matrics', 'ROC Curve', 'Precision-Recall Curve'))
        if st.sidebar.button("Classify", key='classify'):
