@@ -29,6 +29,7 @@ import streamlit as st
 from matplotlib import pyplot
 from collections import ChainMap
 import numpy as np
+%matplotlib inline
 
 def main():
     ########                   Message title                   ########
