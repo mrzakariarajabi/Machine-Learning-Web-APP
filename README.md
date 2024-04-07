@@ -2,7 +2,7 @@
 
 This repository contains the source code for a web application that predicts the risk of cardiovascular disease (CVD) using Python and the Streamlit framework. The deployed version of the app is available at https://eclinic.streamlit.app/.
 
-<img src="img/1.png" />
+<img src="/1.png" />
 ## Features:
 
 * User-friendly interface: The app provides a simple interface for users to input their health data and receive predictions about their cardiovascular disease risk.
